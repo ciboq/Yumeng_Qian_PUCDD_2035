@@ -11,9 +11,9 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   <!DOCTYPE html>
+   h1 {color: aqua;}
 
-   
+
 
 /*
  * Remove text-shadow in selection highlight:
