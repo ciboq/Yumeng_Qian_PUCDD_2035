@@ -15,6 +15,10 @@
      color: cadetblue;
    }
 
+   img{
+     max-width: 30%;
+     height: auto;
+   }
 
 /*
  * Remove text-shadow in selection highlight:
