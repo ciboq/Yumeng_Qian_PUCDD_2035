@@ -40,6 +40,14 @@
 <p>Beijing, China</p>
 <img src="dogee.png">
 
-
+main {
+  width: 80vw;
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows:min-content;
+  grid-gap:2rem;
+}
 
 </html>
