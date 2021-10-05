@@ -16,9 +16,11 @@
    }
 
    img{
-     max-width: 30%;
-     height: auto;
+     max-width: 30%
+     ;
    }
+
+
 
 /*
  * Remove text-shadow in selection highlight:
