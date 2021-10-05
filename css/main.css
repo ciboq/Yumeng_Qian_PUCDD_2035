@@ -10,24 +10,46 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-   
-   html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-    padding:1.5rem;
-    background-color: #fff;
-  }
-  
-  main {
-    width: 80vw;
-    margin: 0 auto;
-    display:grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows:min-content;
-    grid-gap:2rem;
-}
+
+   <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS Grid starting point</title>
+    <style>
+        body {
+            width: 80vw; 
+            max-width: 900px;
+            margin: 2em auto;
+            font: .9em/1.2 Arial, Helvetica, sans-serif;
+        }
+
+        .container > div {
+            border-radius: 5px;
+            padding: 10px;
+            background-color: rgb(207,232,220);
+            border: 2px solid rgb(79,185,227);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Simple grid example</h1>
+
+    <div class="container">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+        <div>Six</div>
+        <div>Seven</div>
+    </div>
+
+</body>
+
+</html>
 
 /*
  * Remove text-shadow in selection highlight:
