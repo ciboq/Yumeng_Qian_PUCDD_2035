@@ -20,15 +20,17 @@
      max-height: 70%;
    }
 
+
  body{
    margin: 40px;
  }
 
- main{
-   margin:auto;
-   display: grid;
-   grid-template-columns: 1fr 2fr;
- }
+ .wrapper{  
+  margin:auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;}
+ 
+ 
 
 /*
  * Remove text-shadow in selection highlight:
