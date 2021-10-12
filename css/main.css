@@ -28,7 +28,9 @@
  .wrapper{  
   margin:auto;
   display: grid;
-  grid-template-columns: 1fr 2fr;}
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: min-content;
+  grid-gap: 2rem;}
  
  
 
