@@ -20,7 +20,11 @@
      max-height: 70%;
    }
 
+ body{
+   margin: 40px;
+ }
 
+ 
 
 /*
  * Remove text-shadow in selection highlight:
