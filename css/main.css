@@ -20,10 +20,10 @@
      max-height: 60%;
    }
 
- body{
-   display: grid;
-   grid-gap: 1em;
- }
+.container{
+  display: grid;
+  grid-template-columns: max-content;
+}
 
   
 
