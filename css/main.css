@@ -19,7 +19,13 @@
      max-width: 70%;
      max-height: 70%;
    }
-
+   
+   html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 
  .wrapper{ 
   width: 80vw; 
